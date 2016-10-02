@@ -211,13 +211,16 @@
 					6360CCCB1B6030D500C22BB2 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 645DPB2K5W;
+						LastSwiftMigration = 0800;
 					};
 					6360CCDF1B6030D600C22BB2 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6360CCCB1B6030D500C22BB2;
 					};
 					6360CCEA1B6030D600C22BB2 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6360CCCB1B6030D500C22BB2;
 					};
 				};
@@ -427,6 +430,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddperkins.SimpleBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -442,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddperkins.SimpleBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5b95fc36-7f20-4bf5-a81d-085f19aa8a09";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -453,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddperkins.SimpleBrowserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBrowser.app/SimpleBrowser";
 			};
 			name = Debug;
@@ -465,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddperkins.SimpleBrowserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBrowser.app/SimpleBrowser";
 			};
 			name = Release;
@@ -476,6 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddperkins.SimpleBrowserUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SimpleBrowser;
 				USES_XCTRUNNER = YES;
 			};
@@ -488,6 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddperkins.SimpleBrowserUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SimpleBrowser;
 				USES_XCTRUNNER = YES;
 			};

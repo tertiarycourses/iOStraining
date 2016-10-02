@@ -25,6 +25,13 @@
 //
 //a + " " + b
 
+//import UIKit
+//var a = "Hello World"
+//if a.range(of: "World") != nil {
+//  print("exist")
+//}
+//var b = a.replacingOccurrences(of: "World", with: "Alfred")
+
 //Character
 //let a:Character = "!"
 //var b:String = "Hi"
@@ -62,11 +69,11 @@
 //
 //}
 
-var a:[Any] = [4,5.6,"Hi"]
-
-for i in a {
-    print(i)
-}
+//var a:[Any] = [4,5.6,"Hi"]
+//
+//for i in a {
+//    print(i)
+//}
 
 // Module 3 : Collection Types
 // Array
@@ -86,6 +93,11 @@ for i in a {
 //a.contains(10)
 //a.insert(9999,at: 1)
 //a.remove(at:1)
+//a.removeLast()
+//a.removeFirst()
+//a.removeSubrange(1..<3)
+//a.remove(at: 3)
+//a.removeAll()
 //a.sort()
 
 // Set
@@ -105,7 +117,7 @@ for i in a {
 
 //Tuple
 //var a:(String,Int,Double)
-
+//
 //a = (name:"ally",age:30,height:156.8)
 
 //a.0
@@ -140,6 +152,18 @@ for i in a {
 //}
 
 //guard-else
+
+//var a:Int?
+//a = 5
+//func f(x:Int?) {
+//    guard let b = x else {
+//        return
+//    }
+//    print("exist")
+//}
+//
+//f(x: a)
+
 
 //for i in 1...10 {
 //    guard i%2 == 0

@@ -24,38 +24,38 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func didTapGo(sender: AnyObject) {
+    @IBAction func didTapGo(_ sender: AnyObject) {
         if addressBar.text == "" {
             return
         }
         guard let text:String = addressBar.text else {
             return
         }
-        infoLabel.hidden = true
-        if text.rangeOfString(".") != nil {
-            var finalString:String = text.lowercaseString
-            if finalString.rangeOfString("http://") == nil {
+        infoLabel.isHidden = true
+        if text.range(of: ".") != nil {
+            var finalString:String = text.lowercased()
+            if finalString.range(of: "http://") == nil {
                 finalString = "http://\(finalString)"
             }
             self.loadURL(finalString)
         } else {
-            let searchStr = text.stringByReplacingOccurrencesOfString(" ", withString: "+")
+            let searchStr = text.replacingOccurrences(of: " ", with: "+")
             let finalString = "https://www.google.com/search?q=\(searchStr)"
             self.loadURL(finalString)
         }
     }
     
-    func loadURL(str:String) {
-        let url = NSURL(string: str)!
-        let request = NSURLRequest(URL: url)
+    func loadURL(_ str:String) {
+        let url = URL(string: str)!
+        let request = URLRequest(url: url)
         webView.loadRequest(request)
     }
     
-    @IBAction func goBack(sender: AnyObject) {
+    @IBAction func goBack(_ sender: AnyObject) {
         webView.goBack()
     }
 
-    @IBAction func goForward(sender: AnyObject) {
+    @IBAction func goForward(_ sender: AnyObject) {
         webView.goForward()
     }
 }

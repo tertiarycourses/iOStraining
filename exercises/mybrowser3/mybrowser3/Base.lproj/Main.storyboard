@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mybrowser3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeO-fp-ZLa">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="73C-Sd-vGz"/>
+                                    <constraint firstAttribute="width" constant="30" id="aZE-l6-XLa"/>
+                                </constraints>
+                                <state key="normal" title="&lt;" image="btn_left.png"/>
+                                <connections>
+                                    <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SxJ-BO-cmO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9r2-hp-gRe">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mr9-XY-16g"/>
+                                    <constraint firstAttribute="width" constant="30" id="fQy-4K-z0d"/>
+                                </constraints>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="didTapGo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R8V-mI-Fvk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIu-Qo-YNH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="0sK-ok-L5l"/>
+                                    <constraint firstAttribute="height" constant="30" id="3DA-gX-7Yj"/>
+                                </constraints>
+                                <state key="normal" title="&gt;" image="btn_right.png"/>
+                                <connections>
+                                    <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Bp-QH-rjg"/>
+                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RE4-a0-MCZ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iHe-P6-6iq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HhG-8H-FKu"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HxG-ea-eNU">
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter URL or text and tap Go" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECI-Ci-SnS">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JeO-fp-ZLa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="BiM-V6-d89"/>
+                            <constraint firstItem="9r2-hp-gRe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="F6y-6f-vrt"/>
+                            <constraint firstItem="9r2-hp-gRe" firstAttribute="leading" secondItem="iHe-P6-6iq" secondAttribute="trailing" constant="8" id="HS9-KD-TXe"/>
+                            <constraint firstItem="iHe-P6-6iq" firstAttribute="leading" secondItem="JeO-fp-ZLa" secondAttribute="trailing" constant="8" id="Ipx-2T-3jl"/>
+                            <constraint firstItem="HxG-ea-eNU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="P9m-7R-BNx"/>
+                            <constraint firstItem="ECI-Ci-SnS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="POL-y0-zci"/>
+                            <constraint firstItem="PIu-Qo-YNH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="YDR-3I-4fY"/>
+                            <constraint firstItem="PIu-Qo-YNH" firstAttribute="leading" secondItem="9r2-hp-gRe" secondAttribute="trailing" constant="17" id="g9w-EX-VU5"/>
+                            <constraint firstAttribute="trailing" secondItem="PIu-Qo-YNH" secondAttribute="trailing" constant="26" id="iwM-Py-LBk"/>
+                            <constraint firstAttribute="trailing" secondItem="HxG-ea-eNU" secondAttribute="trailing" id="jqd-0y-V7I"/>
+                            <constraint firstItem="iHe-P6-6iq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="oeJ-or-bhC"/>
+                            <constraint firstItem="ECI-Ci-SnS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pGe-mK-IvD"/>
+                            <constraint firstItem="HxG-ea-eNU" firstAttribute="top" secondItem="JeO-fp-ZLa" secondAttribute="bottom" constant="17" id="pQh-Al-xkE"/>
+                            <constraint firstItem="JeO-fp-ZLa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="q6p-mY-1Ul"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HxG-ea-eNU" secondAttribute="bottom" id="yb2-OK-hKG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressBar" destination="iHe-P6-6iq" id="5lE-yv-gOu"/>
+                        <outlet property="infoLabel" destination="ECI-Ci-SnS" id="mf5-FO-dgm"/>
+                        <outlet property="webView" destination="HxG-ea-eNU" id="IHj-Yo-67b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-99.375" y="122.53521126760563"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_left.png" width="30" height="30"/>
+        <image name="btn_right.png" width="30" height="30"/>
+    </resources>
+</document>
