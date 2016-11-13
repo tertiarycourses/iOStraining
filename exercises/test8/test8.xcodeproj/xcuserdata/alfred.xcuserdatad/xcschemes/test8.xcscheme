@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6360CCCB1B6030D500C22BB2"
-               BuildableName = "SimpleBrowser.app"
-               BlueprintName = "SimpleBrowser"
-               ReferencedContainer = "container:SimpleBrowser.xcodeproj">
+               BlueprintIdentifier = "BB8098951DD82C5E00ED1B68"
+               BuildableName = "test8.app"
+               BlueprintName = "test8"
+               ReferencedContainer = "container:test8.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6360CCDF1B6030D600C22BB2"
-               BuildableName = "SimpleBrowserTests.xctest"
-               BlueprintName = "SimpleBrowserTests"
-               ReferencedContainer = "container:SimpleBrowser.xcodeproj">
+               BlueprintIdentifier = "BB8098A91DD82C5E00ED1B68"
+               BuildableName = "test8Tests.xctest"
+               BlueprintName = "test8Tests"
+               ReferencedContainer = "container:test8.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6360CCEA1B6030D600C22BB2"
-               BuildableName = "SimpleBrowserUITests.xctest"
-               BlueprintName = "SimpleBrowserUITests"
-               ReferencedContainer = "container:SimpleBrowser.xcodeproj">
+               BlueprintIdentifier = "BB8098B41DD82C5F00ED1B68"
+               BuildableName = "test8UITests.xctest"
+               BlueprintName = "test8UITests"
+               ReferencedContainer = "container:test8.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6360CCCB1B6030D500C22BB2"
-            BuildableName = "SimpleBrowser.app"
-            BlueprintName = "SimpleBrowser"
-            ReferencedContainer = "container:SimpleBrowser.xcodeproj">
+            BlueprintIdentifier = "BB8098951DD82C5E00ED1B68"
+            BuildableName = "test8.app"
+            BlueprintName = "test8"
+            ReferencedContainer = "container:test8.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6360CCCB1B6030D500C22BB2"
-            BuildableName = "SimpleBrowser.app"
-            BlueprintName = "SimpleBrowser"
-            ReferencedContainer = "container:SimpleBrowser.xcodeproj">
+            BlueprintIdentifier = "BB8098951DD82C5E00ED1B68"
+            BuildableName = "test8.app"
+            BlueprintName = "test8"
+            ReferencedContainer = "container:test8.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6360CCCB1B6030D500C22BB2"
-            BuildableName = "SimpleBrowser.app"
-            BlueprintName = "SimpleBrowser"
-            ReferencedContainer = "container:SimpleBrowser.xcodeproj">
+            BlueprintIdentifier = "BB8098951DD82C5E00ED1B68"
+            BuildableName = "test8.app"
+            BlueprintName = "test8"
+            ReferencedContainer = "container:test8.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
