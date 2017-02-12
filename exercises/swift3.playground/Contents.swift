@@ -18,7 +18,7 @@
 //let country = "france".uppercased()
 //let capital = "Paris"
 //
-//print("The capital of \(country)is \(capital)")
+//print("The capital of \(country) is \(capital)")
 
 //var a = "Hello".uppercased()
 //var b = "World"
