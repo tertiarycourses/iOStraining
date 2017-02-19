@@ -8,21 +8,19 @@ The course outline can be found in
 https://www.tertiarycourses.com.sg/ios-swift-programming-training-course-in-singapore.html
 
 <h2>Part 1 Swift</h2>
-<p><strong>Module 1 Get Ready</strong></p>
+<p><strong>Module 1 Get Ready</strong> </p>
 <ul>
 <li>Overview of Swift</li>
-<li>Run Swift on Terminal</li>
-<li>Install Xcode</li>
+<li>Playground</li>
 <li>Variable &amp; Constant</li>
 <li>Print to Console</li>
 <li>Comment</li>
 </ul>
 <p><strong>Module 2: Data Types</strong></p>
 <ul>
-<li>Integer</li>
-<li>Float &amp; Double</li>
+<li>Numbers</li>
 <li>Boolean&nbsp;</li>
-<li>String &amp; Character</li>
+<li>String</li>
 <li>Optional</li>
 <li>Any</li>
 </ul>
@@ -33,74 +31,53 @@ https://www.tertiarycourses.com.sg/ios-swift-programming-training-course-in-sing
 <li>Dictionary</li>
 <li>Tuple</li>
 </ul>
-<p><strong>Module 4 Operators</strong></p>
+<p><strong>Module 4 Operators</strong> </p>
 <ul>
 <li>Common Operators</li>
 <li>Compound Operators</li>
-<li>Increment/Decrement Operators</li>
 <li>Comparison Operators</li>
 <li>Logical Operators</li>
 <li>Range Operators</li>
 <li>Operator Procedure</li>
 </ul>
-<p><strong>Module 5 Control Flow</strong></p>
+<p><strong>Module 5 Control Flow</strong> </p>
 <ul>
-<li>If- else - if</li>
-<li>Switch</li>
-<li>While loop</li>
-<li>For loop</li>
+<li>Conditional&nbsp;</li>
+<li>Loop</li>
 <li>Break &amp; Continue</li>
 </ul>
-<p><strong>Module 6 Function</strong></p>
+<p><strong>Module 6 Function</strong> </p>
 <ul>
 <li>Function Syntax</li>
 <li>Input Parameters</li>
 <li>Return Values</li>
-<li>Passing Array to Function</li>
-<li>Variadic Parameters</li>
-<li>Function within Function</li>
-<li>Recursive Function</li>
 </ul>
-<p style="display: inline !important;">&nbsp;</p>
-<p><strong>Module 7 Closure</strong></p>
-<ul>
-<li>Closure Syntax</li>
-<li>Closure Inputs</li>
-</ul>
-<p><strong>Module 8 Class &amp; Structure</strong></p>
+<p><strong>Module 7 Class &amp; Enum</strong></p>
 <ul>
 <li>Class</li>
-<li>Init&nbsp;</li>
-<li>Deinit</li>
+<li>Init Function</li>
 <li>Inheritance</li>
-<li>Struct</li>
 <li>Enum</li>
 </ul>
-<p style="display: inline !important;">&nbsp;</p>
-<p><strong>Module 9 Protocols</strong></p>
-<ul>
-<li>Protocol Syntax</li>
-</ul>
 <h2>Part 2: Xcode</h2>
-<p><strong>Module 10 Xcode Basics</strong></p>
+<p><strong>Module 8 Xcode Basics</strong> </p>
 <ul>
-<li>Opening a Xcode template</li>
 <li>Exploring Xcode Interface</li>
 </ul>
-<p><strong><strong>Module 11&nbsp;User Interface (UI)</strong></strong></p>
+<p><strong>Module 9 User Interface (UI)</strong> </p>
 <ul>
-<li>Layout Selectors</li>
+<li>Layout Preview</li>
 <li>Pinning &amp; Auto Layout</li>
-<li>Stack View</li>
+<li>Create a Calculator Layout</li>
 </ul>
-<p><strong>Module 12 Interface Builder</strong></p>
+<p><strong>Module 10 Adding Codes to UI Elements</strong></p>
 <ul>
-<li>Connecting code to UI element in Interface Builder</li>
-<li>Transition between View Controllers in Storyboards</li>
-<li>Adding Codes to View Controllers</li>
+<li>Connecting code to UI element</li>
+<li>Transition between Multiple View Controllers</li>
+<li>Adding Codes to Second View Controllers</li>
 </ul>
-<h2><span style="font-size: large;">Part 3: Apps Projects</span></h2>
-<p><strong>Module 13 Building a Simple Web Browser App</strong></p>
+<h2>Part 3: Apps Projects</h2>
+<p><br /><strong>Module 11 Building a Simple Web Browser App</strong> </p>
 <ul>
 <li>App Overview</li>
 <li>App Layout</li>
@@ -108,23 +85,22 @@ https://www.tertiarycourses.com.sg/ios-swift-programming-training-course-in-sing
 <li>Connecting UI Elements to Code</li>
 <li>Writing Logic to Code</li>
 <li>Security Setting</li>
-<li>Final Touchup</li>
 <li>App Icons</li>
 <li>Custom UI Buttons</li>
 <li>Launch Screen</li>
 </ul>
-<p><strong>Module 14 Building a Simple Note Taking App</strong></p>
+<p><strong>Module 12 Building a Simple Calculator Apps (Optional)</strong> </p>
 <ul>
 <li>App Overview</li>
-<li>Master-Detail App Code Template</li>
-<li>Editing Storyboards</li>
-<li>Handling Note Deletion</li>
+<li>App Properties &amp; Methods</li>
+<li>Create Mode Enum</li>
+<li>Setup Properties &amp; Methods</li>
+<li>Connect UI Elements to Code</li>
+<li>Codes for Calculator App</li>
 </ul>
-<p><strong>Module 15 Publishing Apps</strong></p>
+<p><strong>Module 13 Publishing Apps</strong> </p>
 <ul>
-<li>Workflow</li>
+<li>iOS App Publishing Workflow</li>
 <li>Preparing Settings</li>
 <li>Submitting Apps for Review</li>
-<li></li>
 </ul>
-<p><strong>Module 16 Challenge: Build a FoodTracker App</strong></p>
