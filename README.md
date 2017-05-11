@@ -1,5 +1,5 @@
 # iOS App Development with Swift Essential Training
-## by [Tertiary Infotech Pte. Ltd] (https://www.tertiarycourses.com.sg/)
+## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [iOS App Development with Swift Essential Trainings](https://www.tertiarycourses.com.sg/ios-swift-programming-training-course-in-singapore.html) course. 
 
