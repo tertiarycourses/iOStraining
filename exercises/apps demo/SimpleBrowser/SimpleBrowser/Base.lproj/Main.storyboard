@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHf-b5-x8R">
+                                <rect key="frame" x="270" y="20" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gYl-KW-WFQ"/>
+                                    <constraint firstAttribute="width" constant="30" id="m4E-MW-JxW"/>
+                                </constraints>
+                                <state key="normal" title="&gt;" image="btn_right.png"/>
+                                <connections>
+                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xjg-GP-kq7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFV-l0-VzY">
+                                <rect key="frame" x="232" y="20" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XFe-tM-ASR"/>
+                                    <constraint firstAttribute="width" constant="30" id="mNs-Lg-nbZ"/>
+                                </constraints>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="didTapGo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGk-Hy-tEW"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ev2-9E-4Zf">
+                                <rect key="frame" x="58" y="20" width="166" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hbl-Id-6zp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Twi-2E-A0f">
+                                <rect key="frame" x="0.0" y="67" width="320" height="501"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Type a URL or Search and Tap Go" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbk-JG-uVN">
+                                <rect key="frame" x="171" y="290" width="258" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0G-3l-Xf4">
+                                <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="E4J-Q6-lvm"/>
+                                    <constraint firstAttribute="width" constant="30" id="Hpg-75-qTh"/>
+                                </constraints>
+                                <state key="normal" title="&lt;" image="btn_left.png"/>
+                                <connections>
+                                    <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QZG-DE-8fL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ev2-9E-4Zf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8VP-CV-CHe"/>
+                            <constraint firstItem="kFV-l0-VzY" firstAttribute="leading" secondItem="Ev2-9E-4Zf" secondAttribute="trailing" constant="8" id="8ic-ZK-fXh"/>
+                            <constraint firstItem="GHf-b5-x8R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ahe-mT-4Ct"/>
+                            <constraint firstItem="Ev2-9E-4Zf" firstAttribute="leading" secondItem="E0G-3l-Xf4" secondAttribute="trailing" constant="8" id="Az5-SV-Ar1"/>
+                            <constraint firstItem="E0G-3l-Xf4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DiC-IK-ykj"/>
+                            <constraint firstItem="vbk-JG-uVN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FWr-tk-Xj0"/>
+                            <constraint firstAttribute="trailing" secondItem="Twi-2E-A0f" secondAttribute="trailing" id="Kj1-yr-Ivg"/>
+                            <constraint firstItem="Twi-2E-A0f" firstAttribute="top" secondItem="E0G-3l-Xf4" secondAttribute="bottom" constant="17" id="RBP-ml-MXk"/>
+                            <constraint firstItem="E0G-3l-Xf4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Tyw-Jp-9N5"/>
+                            <constraint firstItem="vbk-JG-uVN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Zwh-A3-fZl"/>
+                            <constraint firstAttribute="trailing" secondItem="GHf-b5-x8R" secondAttribute="trailing" constant="20" id="dhb-OH-gQ8"/>
+                            <constraint firstItem="GHf-b5-x8R" firstAttribute="leading" secondItem="kFV-l0-VzY" secondAttribute="trailing" constant="8" id="e6Y-3J-QqA"/>
+                            <constraint firstItem="Twi-2E-A0f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jxh-nn-Ysp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Twi-2E-A0f" secondAttribute="bottom" id="lXT-c9-EUs"/>
+                            <constraint firstItem="kFV-l0-VzY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="y6Z-9B-1hw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressBar" destination="Ev2-9E-4Zf" id="esi-Nl-cuD"/>
+                        <outlet property="infoLabel" destination="vbk-JG-uVN" id="iEl-WY-5vP"/>
+                        <outlet property="webView" destination="Twi-2E-A0f" id="m4q-uc-BqA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="297"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_left.png" width="30" height="30"/>
+        <image name="btn_right.png" width="30" height="30"/>
+    </resources>
+</document>
