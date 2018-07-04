@@ -25,13 +25,6 @@
 //
 //a + " " + b
 
-//import UIKit
-//var a = "Hello World"
-//if a.range(of: "World") != nil {
-//  print("exist")
-//}
-//var b = a.replacingOccurrences(of: "World", with: "Alfred")
-
 //Character
 //let a:Character = "!"
 //var b:String = "Hi"
@@ -40,40 +33,40 @@
 
 //Optional
 
-//var a:String!
+//var str:String?
+//str = "5"
+//var num = Int(str!)
 //
-//a = "Hello"
-//print(a.uppercased())
-
-//var a:Int! = 3
-//var b:Int = 5
-//
-//print(a+b)
-//a = nil
-
-//a = 3
-//print(a+b)
-//print(a)
-//print(a+b)
+//var str2:String! = "5"
+//var num2 = Int(str2)
 
 //Optional Binding
 
-//var a: Int?
-//
-//a = nil
-//
+
+//var a :Int? = nil
 //if let c = a {
-//    print("a has a value")
+//    print("The value of a is \(c)")
 //} else {
 //    print("a has no value yet")
 //
 //}
 
-//var a:[Any] = [4,5.6,"Hi"]
+//var a : Any
 //
-//for i in a {
-//    print(i)
+//a = 5
+//a = "="
+//a = 6.5
+
+
+// Enum
+
+//enum modes {
+//    case non_set
+//    case addition
+//    case substraction
 //}
+//
+//var m:modes = .non_set
 
 // Module 3 : Collection Types
 // Array
@@ -126,6 +119,8 @@
 //a.name
 //a.age
 //a.height
+
+
 
 // Module 4 Operators
 //var a = 4
